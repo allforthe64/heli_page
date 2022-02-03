@@ -33,7 +33,7 @@ html, body {
     color: white;
     height: 100%;
     text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 3px;
 }
 
 .header-nav .link-div:hover {
