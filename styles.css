@@ -29,17 +29,21 @@ html, body {
     line-height: 50px;
 }
 
-.header-nav a:hover {
+.header-nav div:hover .nav-link {
     color: white;
     height: 100%;
     text-decoration: underline;
     text-decoration-thickness: 5px;
 }
 
+.header-nav .link-div:hover {
+    background-color: rgba(82, 82, 82, 0.5);
+}
+
 .link-div {
-    background-color: grey;
     width: 150px;
     height: 100%;
-    margin-left: 13.5%;
+    margin-left: 12%;
     display: inline-block;
+    transition: ease .3s;
 }
