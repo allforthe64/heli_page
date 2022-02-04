@@ -21,7 +21,8 @@ html, body {
 }
 
 .nav-link {
-    font-family: "Noto Sans";
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 18px;
     color: black;
     margin-left: 30px;
@@ -48,5 +49,18 @@ html, body {
     transition: ease .3s;
 }
 
+/* styling for main content */
+#mega-heading {
+    font-family: 'Anton';font-size: 75px;
+    text-align: center;
+}
 
+.doc-text {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    width: 65%;
+    margin-left: 18%;
+}
   
