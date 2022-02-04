@@ -51,7 +51,8 @@ html, body {
 
 /* styling for main content */
 #mega-heading {
-    font-family: 'Anton';font-size: 75px;
+    font-family: 'Anton';
+    font-size: 75px;
     text-align: center;
 }
 
@@ -62,5 +63,11 @@ html, body {
     text-align: left;
     width: 65%;
     margin-left: 18%;
+}
+
+.reg-heading {
+    font-family: "Anton";
+    font-size: 50px;
+    margin-left: 15%;
 }
   
