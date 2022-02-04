@@ -1,11 +1,80 @@
 addEventListener("DOMContentLoaded", function() {
 
+    index = 0;
+
+    //hide all of the feature divs
+    document.querySelectorAll(".w3-animate-opacity").forEach(element => {
+        element.style.display = "none";
+    })
+
     //wait for an option tag to be selected
     document.querySelectorAll(".custo-form").forEach(element => {
         element.addEventListener("change", function() {
             calculate()
         })
     })
+
+    //features window
+    //wait for the left and right buttons to be pushed
+    document.getElementById("lb").addEventListener("click", function() {
+
+        document.querySelectorAll(".dot").forEach(element => {
+            element.style.backgroundColor = "white";
+        })
+
+        document.querySelectorAll(".w3-animate-opacity").forEach(element => {
+            element.style.display = "none";
+        })
+        
+        if (index == 0) {
+            
+            index = 5;
+        }
+
+        if (index - 1 == 0) {
+            index = 4;
+        }
+        else {
+            index --;
+        }
+
+        console.log(index)
+
+        var dot = document.querySelector(`#d${index}`);
+        dot.style.backgroundColor = "black";
+
+        var div = document.querySelector(`#b${index}`);
+        div.style.display = "block";
+    })
+
+    document.getElementById("rb").addEventListener("click", function() {
+
+        document.querySelectorAll(".dot").forEach(element => {
+            element.style.backgroundColor = "white";
+        })
+
+        document.querySelectorAll(".w3-animate-opacity").forEach(element => {
+            element.style.display = "none";
+        })
+
+        if (index + 1 == 5) {
+            index = 1;
+        }
+        else {
+            index ++;
+        }
+
+        console.log(index)
+
+        var dot = document.querySelector(`#d${index}`);
+        dot.style.backgroundColor = "black";
+
+        var div = document.querySelector(`#b${index}`);
+        div.style.display = "block";
+
+
+
+    });
     
 })
 
