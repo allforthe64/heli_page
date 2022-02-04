@@ -1,11 +1,16 @@
 addEventListener("DOMContentLoaded", function() {
 
+    let swapped = false;
+
     //wait for an option tag to be selected
-    document.getElementsByTagName("option").array.forEach(element => {
-        element.addEventListener("click", function() {
-            // get values out of all of the select tags
-            let values = document.getElementsByClassName("custo-form").value;
-            console.log(values)
+    document.querySelectorAll(".custo-form").forEach(element => {
+        element.addEventListener("change", function() {
+            calculate()
         })
-    });
+    })
+    
+    function calculate() {
+        console.log("Oh yuuurrrrr")
+    }
 })
+
