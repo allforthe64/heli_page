@@ -81,3 +81,9 @@ html, body {
     margin-left: 18%;
 }
   
+/* styling for the customization section */
+
+.custo-form {
+    height: 25px;
+    margin-left: 20%;
+}
