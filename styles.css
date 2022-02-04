@@ -80,7 +80,17 @@ html, body {
     width: 65%;
     margin-left: 18%;
 }
-  
+
+.list-text-bold {
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    width: 65%;
+    margin-left: 18%;
+}
+
 /* styling for the customization section */
 
 .custo-form {
@@ -88,4 +98,12 @@ html, body {
     margin-left: 18.1%;
     border: 0;
     border-bottom: 2px solid black;
+}
+
+#side-img {
+    width: 450px;
+    height: 250px;
+    float:right;
+    margin-left: 100px; 
+    margin-top: 15%;
 }
