@@ -85,5 +85,7 @@ html, body {
 
 .custo-form {
     height: 25px;
-    margin-left: 20%;
+    margin-left: 18.1%;
+    border: 0;
+    border-bottom: 2px solid black;
 }
